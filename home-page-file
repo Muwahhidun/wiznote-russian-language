@@ -1,0 +1,114 @@
+
+:::wiz lang
+mainTitle=Настроить разработку
+mainContent=Поддежка SSO, AD, etc.\n Мобильный SDK\n Редактор заметок\n Кастомный API
+desktopTitle=Десктопное приложение\nСамые полезные инструменты для вашей работы
+list1Content=Windows клиент
+list2Content=Mac клиент
+list3Content=Linux клиент
+list1Extra=Windows XP or выше
+list2Extra=macOS X 10.10 и выше
+list3Extra=Ubuntu 14.04 и выше
+download=Загрузить
+mobileTitle=Данные, документы, задачи\nС вами где угодно, читайте офлайн
+systemAdmin=Управление системой
+
+mainTitle.zh-cn=定制开发，满足企业客户个性化需求
+mainContent.zh-cn=支持单点登录，自动开户，对接AD，SSO等已有账号系统\n嵌入企业已有移动应用\n调用笔记编辑组件\nAPI定制开发
+desktopTitle.zh-cn=桌面客户端\n工作中的得力助手
+list1Content.zh-cn=Windows 客户端
+list2Content.zh-cn=Mac 客户端
+list3Content.zh-cn=Linux 客户端
+list1Extra.zh-cn=Windows XP 或者更高
+list2Extra.zh-cn=macOS X 10.10 或者更高
+list3Extra.zh-cn=Ubuntu 14.04 或者更高
+download.zh-cn=下载
+mobileTitle.zh-cn=资料、数据、文档\n拿在手里，离线查看
+systemAdmin.zh-cn=系统管理
+:::  
+
+:::wiz
+titleAlign=center
+title={mainTitle}
+blockBackgroundCss=background-color:rgb(249, 250, 252); left: -10000px; top: 0; bottom: 0; width: 20000px;
+blockCss=margin:0; padding: 64px 0;
+list.featureLinkCss=margin: 32px auto;max-height: 32px;padding: 4px 24px 4px 24px; border-radius: 4px;justify-content: center;background-color: #172b4d; box-sizing: border-box; color: white;
+list1.content={mainContent}
+list1.linkHref=/admin
+list1.linkText={systemAdmin}
+
+:::
+
+:::wiz
+title={desktopTitle}
+align=center
+textAlign=center
+blockTitleCss=padding-bottom: 32px;
+list.rootCss=margin: 8px; flex:1; box-sizing: border-box; min-width: 200px; max-width: 200px;
+list.mainCss=background-color:white; padding: 0; min-height: 200px; flex-direction: column; justify-content: space-around; align-items: center; display: flex; margin-bottom: 16px; width: 100%
+list.contentCss=display: flex; flex-direction: column; justify-content: space-around; flex-grow: 1;
+list.imageCss=padding: 8px; width: 100%; display: flex; min-height: 120px; align-items: center; justify-content: center;
+blockCss=padding: 64px 0; margin: 0;
+blockBackgroundCss=background-image:url(/static/images/ent/download_background.svg); left: calc((-100vw + 100%) / 2); top: 0; bottom: 0; width: calc(100vw); margin-left: 0;
+
+list1.content={list1Content}
+list1.linkHref=http://url.wiz.cn/u/windows
+list1.linkText={download}
+list1.image=/static/images/ent/download_windows.svg
+list1.imageCss=background-color:rgb(205,229,189);
+list1.align=vert
+list1.style=block
+list1.extraText={list1Extra}
+
+list2.content={list2Content}
+list2.linkHref=http://url.wiz.cn/u/mac
+list2.linkText={download}
+list2.image=/static/images/ent/download_mac.svg
+list2.imageCss=background-color:rgb(212,150,153);
+list2.align=vert
+list2.style=block
+list2.extraText={list2Extra}
+
+list3.content={list3Content}
+list3.image=/static/images/ent/download_linux.svg
+list3.imageCss=background-color:rgb(173,171,215);
+list3.linkHref=https://www.wiz.cn/wiznote-linux.html
+list3.linkText={download}
+list3.align=vert
+list3.style=block
+list3.extraText={list3Extra}
+
+:::
+
+
+:::wiz
+title={mobileTitle}
+titleAlign=center
+image=/static/images/ent/mobile_left.svg
+align=left
+rootCss=margin-top:32px;
+list.rootCss=min-height: 220px; display: flex; flex-direction: column; text-align: center;
+list.contentContainerCss=padding: 8px 0; min-width: 180px;
+list.contentBackgroundCss=left: -10000px; top: 0; bottom: 0; width: 20000px; background-color:rgb(240,245, 251);
+list.lineCss=line-height:24px; margin-bottom: unset;
+
+
+
+list1.content=Android
+list1.image=/static/images/ent/download_android.svg
+list1.align=vert
+list1.thumbImage=/static/images/ent/download_thumb_qr.svg
+list1.detailImage=/static/images/ent/download_android_qr.png
+list1.extraLinkHref=http://url.wiz.cn/u/android
+list1.extraLinkText={download}
+
+list2.content=iPhone/iPad
+list2.image=/static/images/ent/download_ios.svg
+list2.align=vert
+list2.thumbImage=/static/images/ent/download_thumb_qr.svg
+list2.detailImage=/static/images/ent/download_ios_qr.png
+list2.extraLinkHref=http://url.wiz.cn/u/wiz_cn_iphone
+list2.extraLinkText=App Store
+
+:::
+
